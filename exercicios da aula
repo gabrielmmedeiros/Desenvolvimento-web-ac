@@ -1,0 +1,105 @@
+1) melhor controle quando em uma equipe e ter versoes antigas para emergencias
+
+2)git é o sistema completo para versonamento de versoes, o github é um site que utiliza esse sistema
+
+3)html-para o conteudo da pagina como imagens texto e etc, CSS estilo da pagina, background etc
+
+4)tag:simbolo da linguagem de html geralmente utilizado para marcar uma seção de documentos
+elemento:são uma parte conceitual/semântica que têm um começo e fim determinados(instancia)
+atributo:propriedade que caracteriza um elemento
+
+
+5)<!doctype htlm> (nprecisapor)
+  
+  <html>
+        <head>
+              <meta charset="utf-8">     ------> (ta entre aspas por ser um valos de atributo)
+              <title> Minha pagina </title>
+        </head>
+        <body>
+              <p> estou por aqui </p> ----------->(já aqui n precisa por aspas)
+        </body>
+  </html>
+
+
+6)ex: aplicação       (http,smtp,etc)
+      transporte
+      rede
+      enlace        
+      fisica         (quanto mais alto maior o nivel de abstração, ou seja camada fisica movimenta o bit no cabo)
+
+pilha de protocolo de comunicação, a camada de baixo usa a de cima
+
+R:pilha de protocolo é um conjunto de protocolo usado nas aplicações da internet organizados em camadas de acordo com o nivel de abstração, 
+mantendo a ideia de que a camada de baixo presta serviço para a de cima
+
+
+7) TCP(mais confiavel, garantindo que o dado vai chegar, logo tem um custo computacional maior/orientado a conexao, ele estabelece uma conexao antes de trocar dado, logo isso custa mais tempo) e 
+UDP( não garante a entrega e isso faz um custo computacional total menor por isso é mais rapido/não é orientado a conexao)
+
+8)arquitetura cliente servidor:------------------------------------------------------------------------------------------------------------------------------------------------
+
+arquitetura p2p:não existe um servidor central sempre ligado, é descentralizado, todos os participantes dessa arquitetura podem funcionar tanto como cliente e/ou servidor simultaneamente (torrent)
+
+9)um programa em execução.
+podem ser identificados por ip(chega na maquina) e pela porta(chega no processo)--------> local host(meu ip):8000(porta)
+
+obs:nó da rede é um computador
+
+10)é uma camada de segurança que pode ser combinada com protocolos da camada de aplicação(http)--->http+ssl=https, ficou seguro, agrega segurança, criptografando etc
+
+11)2 filhos do no raiz(html) é o head e body.
+não há limite pois pode ser dentro do head(só pode titlee meta e link porem no link eu posso por um monte e link entao teoricamente n tem limite) dentro do body, fora tanto faz
+
+12) div,ul,p,adress,heavy/a,strong,del,mark,data----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+13)<form> </form>(elemento html feito para capturar informações do usuario)
+
+14) <a>(elementos da tag a)
+
+15)1.<input>(entrada de dados do usuario)
+   2.<textarea>(permite ao usuario inserir textos mais longos, como comentarios ou descriçoes)
+   3.<select>(cria lista suspensa de opções para o usuario selecionar uma unica escolha)
+   4.<label>(fornece um rotulo pra um elemento de entrada ajudando a identificar o propósito ou a função do campo
+   5.<button>(cria um botao clicavel que pode ser usado executar uma ação especifica)
+
+16).define um ou mais conjuntos de elementos
+   .identificação unica(univoca) de um elemento
+   .quando vc manda o formulario pro servidor o name vai ser a variavel associada ao elementos enviados ou seja serve para representar uma coleção de valores, enviados através de um formulário, para o servidor
+    (pode ser usado para indentificar tambem)
+   .ocultar informações que não seriam relevantes para o usuario(não tem nada haver com segurança, apenas estetica/ comodidade)
+   .aplicar estilo localmente naquele elemento
+   .dar um titulo para um elemento especifico(pq eu me daria o trabalho de fazer isso com esse elemento se ele n aparece pro usuario?:para fornecer informações extras relativas ao elemento para o sistema ou quem vai ler o codigo 
+    que vai ver ele(a internet n é feita só pra gente, robos que automatizados etc)
+
+17)é uma filosofia de design centrada na tentativa de criar um site/aplicativo moderno que funcione nos navegadores mais recentes, mas recorre a uma experiência que, embora não tão boa, ainda oferece conteúdo e 
+funcionalidade essenciais para os navegadores antigos.
+(criar um site para um navegador moderno, e estar ciente de que em um navegador antigo nao vai conseguir exibir todos os recursos que vc colocou, por exemplo, vou usar animação css, poder ser que um navegador 
+antigo nao suporte isso, logo, vou deixar de usar? não , mas preciso que o site funcione sem a animação)
+
+
+18)seletor pares de chave valo que determinao o elemento que vai receber ------------------------------------------------------------------------------------------------------------------
+declaração:diz como o css vai atuar no estilo do elemento
+
+P(seletor){
+color:blue(declaração)    a regra é tudo
+}
+
+19) seletor de classes seleciona os elementos de um classe, ex:minha classe------------------------------------------------------------------------------------------------
+
+20)margin(espaço externo a um elemento)
+border(define a fronteira do elemento)
+padding(espaço entre conteudo e a borda)
+
+21)static:posicionamento padrao
+
+relative:movimentação em relação a posição padrao(inclusive sobrepondo outros elementos)
+
+absolute:retirao elemento do fluxo normal e o posiciona relativamente ao documento (ou ao seu elemento pai)
+
+fixed:retira o elemento do fluxo normal eo posiciona relativamente a viewport
+
+22)entre chaves{}
+
+23)let escopo de bloco /const escopo de função(define a variavel dentro de uma função)/const declaração de constante com escopo de bloco
