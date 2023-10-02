@@ -103,4 +103,4 @@ fixed:retira o elemento do fluxo normal eo posiciona relativamente a viewport
 
 22)entre chaves{}
 
-23)let escopo de bloco /const escopo de função(define a variavel dentro de uma função)/const declaração de constante com escopo de bloco
+23)let escopo de bloco /var escopo de função(define a variavel dentro de uma função)/const declaração de constante com escopo de bloco
